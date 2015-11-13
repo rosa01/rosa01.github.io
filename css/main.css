@@ -1,9 +1,9 @@
 /* Inserta tu CSS aqui */
-*{
+/**{
 
 	outline: solid rgba(255,0,0,0.4) 1px;
 }
-
+*/
 body{
 		color:#555555;
 		font-family: Arial,sans-serif;

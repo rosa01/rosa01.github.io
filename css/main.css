@@ -1,0 +1,109 @@
+/* Inserta tu CSS aqui */
+*{
+
+	outline: solid rgba(255,0,0,0.4) 1px;
+}
+
+body{
+		color:#555555;
+		font-family: Arial,sans-serif;
+		font-size: 13PX;
+}
+h1,h2,h3,h4{
+	color:#A9268D;
+	font-family: 'Oswald',Arial, sans-serif;
+	text-align: center;
+
+
+} 
+.header{
+	position:fixed;
+	top:0;
+	width:100%;
+
+
+}
+.header:after{
+	clear:both;
+}
+.header-content h1{
+	font-family: 'Clicker Script', cursive;
+	color:white;
+	text-shadow: black 2px ;
+	font-weight: bolder;
+	font-size: 48px; 
+}
+
+
+.header-content p{
+	font-family: 'Swanky and Moo Moo', cursive;
+	font-size: 28px;
+} 
+
+.list-nav{
+	font-size: 0;
+	text-align: center;
+	list-style: none;
+}
+.list-nav li{
+	font-size: 16px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+.list-nav a{
+	color: #555555;
+	font-family: Oswald,Arial,sans-serif;
+	display: block;
+	padding:5px 20px;
+	transition:all 0.5s;
+}
+.list-nav a:hover{
+	text-decoration: none;
+	background: #ececec;
+	transform: scale(1.1);
+
+}
+
+.header-content{
+	background: url("../images/orchid-purple.jpg") top center;
+	background-size: cover;
+	color:#fff ;
+	text-align: center;
+	padding:50px 0;
+
+}
+
+ .header-content {
+ 	color:white;
+ 	text-shadow: 2px 2px 8px black;
+ }
+
+#about-me .biografia img{
+	float:left;
+	width:300px;
+	margin-right: 10px;
+	
+}
+
+#about-me{
+	background:url("../images/tile1.png");
+}
+
+#favourite img{
+	/*max-width:262px;
+	max-height: 200px;*/
+	width:212px;
+	
+	height:145px;
+	margin:10px 0;
+	transition: all 1s;
+
+}
+#contact{
+
+	background:url("../images/tile2.png");
+}
+
+#contact li{
+	display:inline-block;
+}
